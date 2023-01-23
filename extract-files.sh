@@ -10,4 +10,4 @@ set -e
 
 MY_DIR="$(cd "$(dirname "${0}")"; pwd -P)"
 
-"${MY_DIR}/../crosshatch/blueline/extract-files.sh" "$@"
+"${MY_DIR}/../Mi8937/Mi8917/extract-files.sh" "$@"
