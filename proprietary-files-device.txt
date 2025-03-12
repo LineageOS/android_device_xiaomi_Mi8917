@@ -23,13 +23,13 @@ vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/wt8917/QRD_Spea
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:vendor/etc/acdbdata/wt8917/QRD_workspaceFile.qwsp
 
 # ConsumerIR - LED - from rolex
-lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.led.so
+-lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.led.so;DISABLE_DEPS
 
 # ConsumerIR - lirc - from ugg
-lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.lirc.so
+-lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.lirc.so;DISABLE_DEPS
 
 # ConsumerIR - spidev - from riva (Nougat)
-lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.spidev.so
+-lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.spidev.so;DISABLE_DEPS
 
 # Display calibration - from rolex
 etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a.xml:vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a.xml
@@ -41,10 +41,10 @@ etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3b.xml:vendor/etc/qdcm_calib_data_
 etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3b.xml:vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3b.xml
 
 # Sensor config (riva) - from riva (Oreo)
-vendor/etc/sensors/sensor_def_qcomdev.conf:vendor/overlayfs/riva/etc/sensors/sensor_def_qcomdev.conf
+vendor/etc/sensors/sensor_def_qcomdev.conf:vendor/etc/overlayfs/riva/sensors/sensor_def_qcomdev.conf
 
 # Sensor config (rolex) - from rolex
-etc/sensors/sensor_def_qcomdev.conf:vendor/overlayfs/rolex/etc/sensors/sensor_def_qcomdev.conf
+etc/sensors/sensor_def_qcomdev.conf:vendor/etc/overlayfs/rolex/sensors/sensor_def_qcomdev.conf
 
 # Sensor config (ulysse) - from ugg
-etc/sensors/sensor_def_qcomdev.conf:vendor/overlayfs/ulysse/etc/sensors/sensor_def_qcomdev.conf
+etc/sensors/sensor_def_qcomdev.conf:vendor/etc/overlayfs/ulysse/sensors/sensor_def_qcomdev.conf
